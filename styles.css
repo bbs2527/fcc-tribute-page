@@ -1,13 +1,12 @@
 /* Main Container */
 html{
     font-size: 16px;
+    font-family: 'Russo One', sans-serif;
 }
 body{
-    max-width: max-content;
-}
-#main{
-    width: 90%;
+    max-width: 90%;
     margin: auto;
+    background: lightgrey;
 }
 
 /* Title */
@@ -15,14 +14,18 @@ body{
     text-align: center;
 }
 
+
 /* Main Image */
 #image > img{
     width: 100%;
     height: auto;
 }
+
 #img-caption{
     text-align: center;
 }
 
 /* Tribute Information */
+
+
 /* Info Link */
