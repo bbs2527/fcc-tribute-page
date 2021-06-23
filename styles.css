@@ -14,11 +14,22 @@ body{
     text-align: center;
 }
 
+#title{
+    padding: 0.5em;
+}
+
+h1{
+    font-size: 3rem;
+    text-decoration: underline;
+}
 
 /* Main Image */
 #image > img{
-    width: 100%;
+    width: 80%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #img-caption{
@@ -26,6 +37,40 @@ body{
 }
 
 /* Tribute Information */
+h3{
+    text-align: center;
+}
 
+.tribute-content{
+    padding: 1%;
+    border: 2px solid black;
+    margin: 3%;
+    
+}
+
+#eden{
+    float: left;
+    margin: 5px;
+}
+
+#collector{
+    float: right;
+    margin: 5px;
+}
+
+#final{
+    float: left;
+    margin: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /* Info Link */
+#tribute-link{
+    text-align: center;
+    padding: 1rem;
+}
